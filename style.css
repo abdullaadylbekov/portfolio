@@ -1,0 +1,43 @@
+body {
+    font-family: sans-serif;
+}
+
+.link-header {
+    background-image: linear-gradient(blue,white);
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+h1 {
+    background-image: linear-gradient(to right,red,green,yellow);
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px 0 black;
+    width: 400px;
+}
+
+.cnhtkrf {
+    float: right;
+
+}
+
+.cnhtkrf:hover {
+    transform: translateY(140px);
+    transition: all 3s linear;
+}
+
+main {
+    border: dashed;
+    padding: 5px;
+}
+
+.asd {
+    text-align: center;
+}
+
+.asd:hover {
+    transform: scale(1.5);
+    transition: all 2s ease;
+}
