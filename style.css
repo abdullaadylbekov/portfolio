@@ -3,41 +3,46 @@ body {
 }
 
 .link-header {
-    background-image: linear-gradient(blue,white);
-    color: black;
+    border: 1px solid yellow;
+    background-image: linear-gradient(to right,yellow,green);
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 5px;
+    color: white;
     text-decoration: none;
-}
-
-h1 {
-    background-image: linear-gradient(to right,red,green,yellow);
-    padding: 5px;
-    border-radius: 20px;
     box-shadow: 10px 10px 5px 0 black;
-    width: 400px;
-}
-
-.cnhtkrf {
-    float: right;
-
-}
-
-.cnhtkrf:hover {
-    transform: translateY(140px);
-    transition: all 3s linear;
-}
-
-main {
-    border: dashed;
-    padding: 5px;
 }
 
 .asd {
+    background-image: linear-gradient(to right,red,green,yellow);
+    padding: 5px;
+    border-radius: 20px;
     text-align: center;
+    box-shadow: 10px 10px 5px 0 black;
 }
 
-.asd:hover {
-    transform: scale(1.5);
-    transition: all 2s ease;
+.link-nav {
+    border: 1px solid yellow;
+    background-image: linear-gradient(to right,yellow,green);
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    float: right;
+}
+
+.bbc:hover {
+    transform: translateX(500px);
+    transition: all 5s linear;
+}
+
+header {
+    background-color: aquamarine;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+main {
+    background-color: aquamarine;
+    padding: 15px;
+    
 }
